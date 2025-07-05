@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Us</title>
+</head>
+<body>
+    <h1>Visit Us:</h1>
+    <h2>Fill the form:</h2>
+    <form action="index.html">
+        <label for="fullname">Full Name:</label><input id="fullname" type="text" minlength="8" maxlength="30" required/>
+        <br>
+        <br>
+<label for="contactnum">Contact Num:</label><input id="contactnum" type="text" required/>
+<br><br>
+<label for="add">Address:</label><input id="add" type="text"required/>
+<br><br>
+<label for="age">Age:</label><input id="age" type="number"required/>
+<br><br>
+<label for="date">Order delivered date:</label><input id="date" type="date" min="2025-07-07"
+  max="2025-12-14"required/>
+<br><br>
+<label for="pass">Password:</label><input id="pass" type="password"required/>
+<br><br>
+<label for="paymentoption">please select a payment method</label>
+<select id="paymentoption" required>
+    <option value=""></option>
+    <option value="">gpay</option>
+    <option value="">Phonepay</option>
+    <option value="">UPI</option>
+    <option value="">COD</option>
+</select>
+<br><br>
+<label for="cmts">Please provide you valuable feedback</label>
+<textarea id="cmts" placeholder="please enter feedback"></textarea>
+<br><br>
+<input type="Reset"/>
+<input type="submit"/>
+    </form>
+    
+</body>
+</html>
